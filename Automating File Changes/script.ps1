@@ -2,7 +2,7 @@
 #be the directory which has the Images directory as subdirectory
 function Rename_If_Image{
     param ( 
-        [string]$ImageName
+            [string]$ImageName
     )
     if ($ImageName -match ".jpg$")
     {
